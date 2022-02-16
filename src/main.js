@@ -16,7 +16,10 @@ containerVideo.classList.add("video");
 let videoPokemon = document.createElement("video");
 videoPokemon.classList.add("video-Pokemon");
 videoPokemon.src = "./icon/¡Pokémon UNITE llega este verano!.webm";
+videoPokemon.autoplay="autoplay", "muted";
+videoPokemon.muted= "muted";
 videoPokemon.controls="controls";
+
 principalContainer.appendChild(containerVideo);
 containerVideo.appendChild(videoPokemon);
 
